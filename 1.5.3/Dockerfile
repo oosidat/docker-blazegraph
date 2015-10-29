@@ -1,7 +1,5 @@
 FROM jetty:9-jre8
 
-MAINTAINER ivan@vandot.rs
-
 ENV JETTY_WEBAPPS /var/lib/jetty/webapps
 ENV BLAZEGRAPH_NAME bigdata
 ENV BLAZEGRAPH_PF_PARAM com.bigdata.rdf.sail.webapp.ConfigParams.propertyFile
